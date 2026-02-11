@@ -424,22 +424,25 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- Project Card 1 -->
-                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full">
+                <!-- New Sentinel Project Card -->
+                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-cyan/30">
                     <div class="flex justify-between items-start mb-4">
-                        <i class="fa-solid fa-bug text-4xl text-sci-cyan"></i>
+                        <i class="fa-solid fa-fingerprint text-4xl text-sci-cyan"></i>
                         <div class="flex gap-4">
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
+                            <!-- Link directly to the tool file -->
+                            <a href="tool.html" class="text-white hover:text-sci-cyan"><i
+                                    class="fa-solid fa-play text-xl"></i> Launch</a>
                         </div>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2 font-header">Web Vuln Scanner</h3>
+                    <h3 class="text-xl font-bold text-white mb-2 font-header">Sentinel Crypto Analyzer</h3>
                     <p class="text-gray-400 text-sm mb-4 flex-grow">
-                        Designed a Python-based security scanner to identify OWASP Top 10 vulnerabilities in web applications. Utilized the Requests and BeautifulSoup libraries to automate risk assessment and testing.
+                        A real-time cybersecurity dashboard built with Vanilla JS and the Web Crypto API. Calculates
+                        password entropy (Shannon info theory) and generates SHA-256 hashes instantly in the browser.
                     </p>
                     <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
-                        <span>Python</span>
-                        <span>Automation</span>
-                        <span>Security</span>
+                        <span class="text-sci-cyan">Interactive</span>
+                        <span>JavaScript</span>
+                        <span>Cryptography</span>
                     </div>
                 </div>
 
@@ -718,3 +721,4 @@
 </body>
 
 </html>
+

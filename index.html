@@ -30,7 +30,9 @@
                             cyan: '#00f3ff',
                             purple: '#bd00ff',
                             dim: '#8892b0',
-                            green: '#0aff0a'
+                            green: '#0aff0a',
+                            red: '#ff003c',
+                            yellow: '#ffb300'
                         }
                     },
                     fontFamily: {
@@ -158,7 +160,6 @@
             box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
         }
 
-        /* The Arrow between nodes */
         .ll-arrow {
             display: flex;
             align-items: center;
@@ -173,7 +174,6 @@
             border-right: 1px solid rgba(255,255,255,0.1);
         }
 
-        /* Address pointer section of the node */
         .ll-next {
             background: rgba(0, 243, 255, 0.05);
             display: flex;
@@ -205,72 +205,39 @@
                 <!-- Desktop Linked List Menu -->
                 <div class="hidden lg:flex items-center justify-center">
                     <div class="flex items-center">
-                        
-                        <!-- Node 1: About -->
                         <div class="ll-node group">
                             <a href="#about" class="ll-box flex border border-sci-dim/30 rounded bg-sci-panel/50 backdrop-blur-md overflow-hidden h-10">
-                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">
-                                    01.ABOUT
-                                </div>
-                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div>
-                                </div>
+                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">01.ABOUT</div>
+                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center"><div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div></div>
                             </a>
-                            <div class="ll-arrow">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </div>
+                            <div class="ll-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
                         </div>
 
-                        <!-- Node 2: Experience -->
                         <div class="ll-node group">
                             <a href="#experience" class="ll-box flex border border-sci-dim/30 rounded bg-sci-panel/50 backdrop-blur-md overflow-hidden h-10">
-                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">
-                                    02.EXP
-                                </div>
-                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div>
-                                </div>
+                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">02.EXP</div>
+                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center"><div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div></div>
                             </a>
-                            <div class="ll-arrow">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </div>
+                            <div class="ll-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
                         </div>
 
-                        <!-- Node 3: Projects -->
                         <div class="ll-node group">
                             <a href="#projects" class="ll-box flex border border-sci-dim/30 rounded bg-sci-panel/50 backdrop-blur-md overflow-hidden h-10">
-                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">
-                                    03.WORK
-                                </div>
-                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div>
-                                </div>
+                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">03.WORK</div>
+                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center"><div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div></div>
                             </a>
-                            <div class="ll-arrow">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </div>
+                            <div class="ll-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
                         </div>
 
-                        <!-- Node 4: Contact -->
                         <div class="ll-node group">
                             <a href="#contact" class="ll-box flex border border-sci-dim/30 rounded bg-sci-panel/50 backdrop-blur-md overflow-hidden h-10">
-                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">
-                                    04.CONTACT
-                                </div>
-                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center">
-                                    <div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div>
-                                </div>
+                                <div class="ll-data px-4 flex items-center justify-center font-mono text-xs text-sci-cyan font-bold hover:text-white transition-colors">04.CONTACT</div>
+                                <div class="ll-next px-2 w-8 border-l border-sci-dim/30 group-hover:bg-sci-cyan/20 transition-colors flex items-center justify-center"><div class="w-1.5 h-1.5 rounded-full bg-sci-cyan"></div></div>
                             </a>
-                            <div class="ll-arrow">
-                                <i class="fa-solid fa-arrow-right-long"></i>
-                            </div>
+                            <div class="ll-arrow"><i class="fa-solid fa-arrow-right-long"></i></div>
                         </div>
 
-                        <!-- Null Terminator -->
-                        <div class="ll-node">
-                            <div class="font-mono text-xs text-sci-dim opacity-50">NULL</div>
-                        </div>
-
+                        <div class="ll-node"><div class="font-mono text-xs text-sci-dim opacity-50">NULL</div></div>
                     </div>
                 </div>
 
@@ -304,11 +271,11 @@
                     Aditya Roy.
                 </h1>
                 <h2 class="font-header text-3xl md:text-5xl font-bold text-sci-dim mb-8 leading-tight">
-                    Building Robust Systems & <br>
+                    Engineering Intelligent Systems & <br>
                     <span class="text-sci-cyan typing-cursor" id="typing-text"></span>
                 </h2>
                 <p class="font-sans text-gray-400 text-lg max-w-xl mb-10 leading-relaxed">
-                    A multi-disciplinary <strong>Computer Science</strong> undergraduate (KIIT) and <strong>Data Science</strong> student (IIT Madras). I bridge the gap between software engineering, data analytics, and cybersecurity to build secure, scalable, and intelligent solutions.
+                    An analytical and detail-oriented <strong>Computer Science</strong> undergraduate. I bridge the gap between machine learning, data analytics, and software engineering to build predictive, scalable, and secure digital solutions.
                 </p>
                 <div class="flex gap-4">
                     <a href="#projects" class="font-mono text-sci-base bg-sci-cyan hover:bg-white transition-colors px-8 py-4 rounded font-bold">
@@ -324,7 +291,6 @@
         <!-- About & Skills Section -->
         <section id="about" class="py-24">
             <div class="flex flex-col md:flex-row gap-16 items-start">
-                <!-- About Text -->
                 <div class="w-full md:w-1/2">
                     <div class="flex items-center gap-4 mb-8">
                         <span class="font-mono text-sci-cyan text-xl">01.</span>
@@ -333,45 +299,39 @@
                     </div>
                     <div class="space-y-4 text-gray-400 font-sans text-lg leading-relaxed">
                         <p>
-                            I am a software engineering enthusiast with a deep interest in the entire data lifecycle. Currently, I am pursuing a **B.Tech in Computer Science** at <span class="text-sci-cyan">KIIT, Bhubaneswar</span> (CGPA 9.44), while concurrently enrolled in the **B.Sc. in Data Science & Statistics** at <span class="text-sci-cyan">IIT Madras</span>.
+                            I am an analytical and detail-oriented Computer Science undergraduate with a strong foundation in algorithms, data analysis, and system evaluation. I am currently pursuing my B.Tech in Computer Science & Engineering at <span class="text-sci-cyan">KIIT, Bhubaneswar</span> (CGPA 9.44).
                         </p>
                         <p>
-                            My background combines rigorous academic training in algorithms and statistics with practical experience in **Network Security** and **System Analysis**. I am passionate about creating software that is not only functional but also secure and ethically grounded.
+                            My technical journey sits at the intersection of software development and data science. Having completed the Foundational Level in Data Science & Statistics from <span class="text-sci-cyan">IIT Madras</span>, I apply statistical rigor to build predictive models, optimize AI pipelines, and develop intuitive algorithm visualizers.
                         </p>
                         <p>
-                            Whether it's analyzing threat patterns or optimizing data pipelines, I enjoy solving complex problems with code.
+                            Beyond writing code, I am deeply passionate about Artificial Intelligence and cybersecurity. I enjoy analyzing threat patterns and ensuring the systems I build are not only intelligent but also robust, secure, and reliable.
                         </p>
                     </div>
                 </div>
 
-                <!-- Skills Grid -->
                 <div class="w-full md:w-1/2">
                     <h3 class="font-mono text-white mb-6">Technical Arsenal</h3>
-                    
                     <div class="grid grid-cols-2 gap-4">
-                        <!-- Skill Item -->
                         <div class="glass-panel p-4 rounded hover:border-sci-cyan/50 transition-colors group">
                             <i class="fa-brands fa-python text-sci-cyan text-2xl mb-2 group-hover:scale-110 transition-transform block"></i>
                             <h4 class="text-white font-bold mb-1">Languages & Core</h4>
-                            <p class="text-sm text-gray-400 font-mono">Python, C, SQL, Linux, Windows</p>
+                            <p class="text-sm text-gray-400 font-mono">Python, Java, C, SQL, Linux, Windows</p>
                         </div>
-                        
                         <div class="glass-panel p-4 rounded hover:border-sci-cyan/50 transition-colors group">
                             <i class="fa-solid fa-database text-sci-cyan text-2xl mb-2 group-hover:scale-110 transition-transform block"></i>
-                            <h4 class="text-white font-bold mb-1">Data Science</h4>
-                            <p class="text-sm text-gray-400 font-mono">Pandas, NumPy, Statistical Evaluation, Data Viz</p>
+                            <h4 class="text-white font-bold mb-1">Data Science & AI</h4>
+                            <p class="text-sm text-gray-400 font-mono">Pandas, NumPy, Statistical Evaluation, RAG</p>
                         </div>
-
                         <div class="glass-panel p-4 rounded hover:border-sci-cyan/50 transition-colors group">
                             <i class="fa-solid fa-shield-halved text-sci-cyan text-2xl mb-2 group-hover:scale-110 transition-transform block"></i>
                             <h4 class="text-white font-bold mb-1">Cybersecurity</h4>
-                            <p class="text-sm text-gray-400 font-mono">Threat Analysis, Vuln Assessment, SIEM, Network Security</p>
+                            <p class="text-sm text-gray-400 font-mono">Threat Analysis, Vuln Assessment, SIEM, Networks</p>
                         </div>
-
                         <div class="glass-panel p-4 rounded hover:border-sci-cyan/50 transition-colors group">
                             <i class="fa-solid fa-laptop-code text-sci-cyan text-2xl mb-2 group-hover:scale-110 transition-transform block"></i>
                             <h4 class="text-white font-bold mb-1">Engineering</h4>
-                            <p class="text-sm text-gray-400 font-mono">System Design, Tech Documentation, Analytical Thinking</p>
+                            <p class="text-sm text-gray-400 font-mono">System Design, Tech Documentation, Analytics</p>
                         </div>
                     </div>
                 </div>
@@ -387,30 +347,16 @@
             </div>
 
             <div class="relative border-l border-gray-800 ml-4 md:ml-6 space-y-12">
-                
-                <!-- Job 1 -->
                 <div class="relative pl-8 md:pl-12 group">
                     <div class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-sci-cyan shadow-[0_0_10px_#00f3ff]"></div>
-                    
                     <h3 class="text-xl font-bold text-white">Network Security Associate</h3>
                     <p class="font-mono text-sci-cyan text-sm mb-2">Fortinet (Virtual) <span class="text-gray-500">|</span> Jan 2025 - Mar 2025</p>
-                    
                     <ul class="list-none space-y-2 text-gray-400">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i>
-                            <span>Gained hands-on experience with firewall configuration, traffic monitoring, intrusion detection, and vulnerability assessment.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i>
-                            <span>Developed skills in system evaluation, risk identification, and structured technical reporting.</span>
-                        </li>
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i>
-                            <span>Strengthened understanding of reliability, safety, and robustness in enterprise systems.</span>
-                        </li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i><span>Gained hands-on experience with firewall configuration, traffic monitoring, intrusion detection, and vulnerability assessment.</span></li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i><span>Developed skills in system evaluation, risk identification, and structured technical reporting.</span></li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-caret-right text-sci-cyan mt-1.5 text-xs"></i><span>Strengthened understanding of reliability, safety, and robustness in enterprise systems.</span></li>
                     </ul>
                 </div>
-
             </div>
         </section>
 
@@ -424,70 +370,110 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 
-                <!-- New Sentinel Project Card -->
+                <!-- Project: Sentinel Crypto Analyzer -->
                 <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-cyan/30">
                     <div class="flex justify-between items-start mb-4">
                         <i class="fa-solid fa-fingerprint text-4xl text-sci-cyan"></i>
                         <div class="flex gap-4">
-                            <!-- Link directly to the tool file -->
-                            <a href="tool.html" class="text-white hover:text-sci-cyan"><i
-                                    class="fa-solid fa-play text-xl"></i> Launch</a>
+                            <a href="tool.html" class="text-white hover:text-sci-cyan transition-colors" title="Launch Tool">
+                                <i class="fa-solid fa-play text-xl"></i>
+                            </a>
                         </div>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-2 font-header">Sentinel Crypto Analyzer</h3>
+                    <h3 class="text-xl font-bold text-white mb-2 font-header">Sentinel Analyzer</h3>
                     <p class="text-gray-400 text-sm mb-4 flex-grow">
-                        A real-time cybersecurity dashboard built with Vanilla JS and the Web Crypto API. Calculates
-                        password entropy (Shannon info theory) and generates SHA-256 hashes instantly in the browser.
+                        A real-time cybersecurity dashboard built with Vanilla JS and Web Crypto API. Calculates password entropy and generates hashes instantly in the browser.
                     </p>
                     <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
                         <span class="text-sci-cyan">Interactive</span>
                         <span>JavaScript</span>
-                        <span>Cryptography</span>
+                        <span>Crypto</span>
                     </div>
                 </div>
 
-                <!-- Project Card 2 -->
-                <!-- Project Card: Quant Predictor -->
+                <!-- Project: Algo-Vision -->
+                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-yellow/30">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fa-solid fa-diagram-project text-4xl text-sci-yellow"></i>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/A-R0y/algo-vision" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Source Code">
+                                <i class="fa-brands fa-github text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 font-header">Algo-Vision</h3>
+                    <p class="text-gray-400 text-sm mb-4 flex-grow">
+                        An interactive visualization tool designed to demystify complex data structures and algorithms. Brings computer science concepts to life through step-by-step graphical execution.
+                    </p>
+                    <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
+                        <span class="text-sci-yellow">Algorithms</span>
+                        <span>Visualization</span>
+                        <span>Web Tech</span>
+                    </div>
+                </div>
+
+                <!-- Project: RAG Optimizer -->
+                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-purple/30">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fa-solid fa-microchip text-4xl text-sci-purple"></i>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/A-R0y/rag-optimizer" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Source Code">
+                                <i class="fa-brands fa-github text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 font-header">RAG Optimizer</h3>
+                    <p class="text-gray-400 text-sm mb-4 flex-grow">
+                        An advanced Retrieval-Augmented Generation pipeline optimizer for LLMs. Enhances context retrieval speed and reduces AI hallucinations for domain-specific tasks.
+                    </p>
+                    <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
+                        <span class="text-sci-purple">AI / LLMs</span>
+                        <span>Python</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+
+                <!-- Project: India AQI Predictor -->
+                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-red/30">
+                    <div class="flex justify-between items-start mb-4">
+                        <i class="fa-solid fa-smog text-4xl text-sci-red"></i>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/A-R0y/IndiaAQI-Predictor" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Source Code">
+                                <i class="fa-brands fa-github text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 font-header">India AQI Predictor</h3>
+                    <p class="text-gray-400 text-sm mb-4 flex-grow">
+                        A machine learning model forecasting the Air Quality Index across Indian cities. Utilizes historical environmental datasets to identify pollution trends and predict future levels.
+                    </p>
+                    <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
+                        <span class="text-sci-red">Machine Learning</span>
+                        <span>Pandas</span>
+                        <span>Forecasting</span>
+                    </div>
+                </div>
+
+                <!-- Project: Quant Predictor -->
                 <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full border border-sci-green/30">
                     <div class="flex justify-between items-start mb-4">
-                        <i class="fa-solid fa-money-bill-trend-up text-4xl text-sci-green"></i>
+                        <i class="fa-solid fa-chart-line text-4xl text-sci-green"></i>
                         <div class="flex gap-4">
-                            <!-- Link to your GitHub Repo -->
-                            <a href="https://github.com/A-R0y/quant-predictor" target="_blank" class="text-white hover:text-sci-green transition-colors">
-                                <i class="fa-brands fa-github text-xl"></i> Source Code
+                            <a href="https://github.com/A-R0y/quant-predictor" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Source Code">
+                                <i class="fa-brands fa-github text-xl"></i>
                             </a>
                         </div>
                     </div>
                     <h3 class="text-xl font-bold text-white mb-2 font-header">Quant Predictor</h3>
                     <p class="text-gray-400 text-sm mb-4 flex-grow">
-                        A quantitative analysis model built to predict market trends. Leverages historical financial data and machine learning techniques to explore predictive modeling for algorithmic trading.
+                        A quantitative analysis model built to predict market trends. Leverages historical financial data and machine learning techniques for predictive modeling in algorithmic trading.
                     </p>
                     <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
-                        <span class="text-sci-green">Machine Learning</span>
+                        <span class="text-sci-green">Finance</span>
                         <span>Python</span>
                         <span>Data Science</span>
                     </div>
                 </div>
-
-                <!-- Project Card 3 -->
-                <div class="glass-panel p-6 rounded-lg hover-card flex flex-col h-full">
-                    <div class="flex justify-between items-start mb-4">
-                        <i class="fa-solid fa-magnifying-glass-chart text-4xl text-sci-cyan"></i>
-                        <div class="flex gap-4">
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-github text-xl"></i></a>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2 font-header">System & AI Evaluation</h3>
-                    <p class="text-gray-400 text-sm mb-4 flex-grow">
-                        Conducted structured performance testing of complex software tools. Measured accuracy, consistency, and failure rates across varied datasets to ensure robust system behavior.
-                    </p>
-                    <div class="flex flex-wrap gap-3 font-mono text-xs text-sci-dim mt-auto">
-                        <span>QA/Testing</span>
-                        <span>System Design</span>
-                        <span>Documentation</span>
-                    </div>
-                </div>
-
             </div>
         </section>
 
@@ -542,12 +528,18 @@
                     <a href="mailto:aroy292005@gmail.com" class="inline-block border-2 border-sci-cyan text-sci-cyan font-mono font-bold py-4 px-10 rounded hover:bg-sci-cyan/10 transition-colors duration-300">
                         aroy292005@gmail.com
                     </a>
-                    <div class="flex gap-4 mt-4">
-                        <a href="https://www.linkedin.com/in/aditya-roy-80078527a" target="_blank" class="text-gray-400 hover:text-white transition-colors">
-                            <i class="fa-brands fa-linkedin text-2xl"></i>
+                    <div class="flex gap-6 mt-6">
+                        <a href="https://github.com/A-R0y" target="_blank" title="GitHub" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-github text-3xl"></i>
                         </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
-                            <i class="fa-solid fa-graduation-cap text-2xl"></i> <!-- Coursera/Credly generic icon -->
+                        <a href="https://www.linkedin.com/in/aditya-roy-80078527a" target="_blank" title="LinkedIn" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-brands fa-linkedin text-3xl"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/Roy2905/" target="_blank" title="LeetCode" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fa-solid fa-code text-3xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors" title="Certifications">
+                            <i class="fa-solid fa-graduation-cap text-3xl"></i>
                         </a>
                     </div>
                 </div>
@@ -565,7 +557,6 @@
     <script>
         /**
          * 1. THREE.JS BACKGROUND ANIMATION
-         * Slightly denser particle system for Data Science vibe
          */
         const canvas = document.querySelector('#bg-canvas');
         const scene = new THREE.Scene();
@@ -577,72 +568,41 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         renderer.setPixelRatio(window.devicePixelRatio);
 
-        // Geometries
         const geometry = new THREE.IcosahedronGeometry(10, 2);
         const wireframe = new THREE.WireframeGeometry(geometry);
-        
-        // Material - Cyan Glow
-        const material = new THREE.LineBasicMaterial({ 
-            color: 0x00f3ff,
-            transparent: true,
-            opacity: 0.12 
-        });
-
-        // Create Mesh
+        const material = new THREE.LineBasicMaterial({ color: 0x00f3ff, transparent: true, opacity: 0.12 });
         const sphere = new THREE.LineSegments(wireframe, material);
         scene.add(sphere);
 
-        // Particle System (Data Points)
         const particlesGeometry = new THREE.BufferGeometry();
-        const particlesCount = 1000; // Increased for "Data" feel
+        const particlesCount = 1000;
         const posArray = new Float32Array(particlesCount * 3);
 
-        for(let i = 0; i < particlesCount * 3; i++) {
-            posArray[i] = (Math.random() - 0.5) * 60; 
-        }
-
+        for(let i = 0; i < particlesCount * 3; i++) { posArray[i] = (Math.random() - 0.5) * 60; }
         particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-        const particlesMaterial = new THREE.PointsMaterial({
-            size: 0.04,
-            color: 0xbd00ff,
-            transparent: true,
-            opacity: 0.7
-        });
+        const particlesMaterial = new THREE.PointsMaterial({ size: 0.04, color: 0xbd00ff, transparent: true, opacity: 0.7 });
         const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
         scene.add(particlesMesh);
 
         camera.position.z = 20;
 
-        // Mouse Interaction
-        let mouseX = 0;
-        let mouseY = 0;
-        let targetX = 0;
-        let targetY = 0;
-
-        const windowHalfX = window.innerWidth / 2;
-        const windowHalfY = window.innerHeight / 2;
+        let mouseX = 0, mouseY = 0, targetX = 0, targetY = 0;
+        const windowHalfX = window.innerWidth / 2, windowHalfY = window.innerHeight / 2;
 
         document.addEventListener('mousemove', (event) => {
             mouseX = (event.clientX - windowHalfX);
             mouseY = (event.clientY - windowHalfY);
         });
 
-        // Animation Loop
         const clock = new THREE.Clock();
-
         function animate() {
-            targetX = mouseX * 0.001;
-            targetY = mouseY * 0.001;
-
+            targetX = mouseX * 0.001; targetY = mouseY * 0.001;
             const elapsedTime = clock.getElapsedTime();
 
-            // Rotate main sphere
-            sphere.rotation.y += 0.002;
-            sphere.rotation.x += 0.001;
+            sphere.rotation.y += 0.002; sphere.rotation.x += 0.001;
             sphere.rotation.y += 0.05 * (targetX - sphere.rotation.y);
             sphere.rotation.x += 0.05 * (targetY - sphere.rotation.x);
 
-            // Particles flow like data streams
             particlesMesh.rotation.y = -elapsedTime * 0.05;
             particlesMesh.position.y = Math.sin(elapsedTime * 0.2) * 0.5;
 
@@ -657,16 +617,12 @@
             renderer.setSize(window.innerWidth, window.innerHeight);
         });
 
-
         /**
          * 2. TYPING EFFECT
          */
-        const textToType = ["Data Science.", "Cybersecurity.", "Scalable Software.", "Robust Solutions."];
+        const textToType = ["Data Science.", "Cybersecurity.", "Predictive Models.", "Algorithmic Solutions."];
         const typingElement = document.getElementById("typing-text");
-        let textIndex = 0;
-        let charIndex = 0;
-        let isDeleting = false;
-        let typeSpeed = 100;
+        let textIndex = 0, charIndex = 0, isDeleting = false, typeSpeed = 100;
 
         function typeEffect() {
             const currentText = textToType[textIndex];
@@ -682,18 +638,13 @@
             }
 
             if (!isDeleting && charIndex === currentText.length) {
-                isDeleting = true;
-                typeSpeed = 2000; 
+                isDeleting = true; typeSpeed = 2000; 
             } else if (isDeleting && charIndex === 0) {
-                isDeleting = false;
-                textIndex = (textIndex + 1) % textToType.length;
-                typeSpeed = 500;
+                isDeleting = false; textIndex = (textIndex + 1) % textToType.length; typeSpeed = 500;
             }
-
             setTimeout(typeEffect, typeSpeed);
         }
         document.addEventListener('DOMContentLoaded', typeEffect);
-
 
         /**
          * 3. SCROLL REVEAL
@@ -717,13 +668,7 @@
             }
         });
 
-        setTimeout(() => {
-            document.querySelector('#hero div').classList.remove('opacity-0', 'translate-y-4');
-        }, 100);
-
+        setTimeout(() => { document.querySelector('#hero div').classList.remove('opacity-0', 'translate-y-4'); }, 100);
     </script>
 </body>
-
 </html>
-
-
